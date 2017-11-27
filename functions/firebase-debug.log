@@ -1,0 +1,27 @@
+[debug] [2017-11-27T14:09:22.958Z] ----------------------------------------------------------------------
+[debug] [2017-11-27T14:09:22.960Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Favina\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --only functions
+[debug] [2017-11-27T14:09:22.960Z] CLI Version:   3.15.3
+[debug] [2017-11-27T14:09:22.960Z] Platform:      win32
+[debug] [2017-11-27T14:09:22.960Z] Node Version:  v8.9.1
+[debug] [2017-11-27T14:09:22.961Z] Time:          Mon Nov 27 2017 14:09:22 GMT+0000 (GMT Standard Time)
+[debug] [2017-11-27T14:09:22.961Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-11-27T14:09:22.971Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-11-27T14:09:22.972Z] > authorizing via signed-in user
+[debug] [2017-11-27T14:09:22.974Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/guessthemovie-987a0  
+ Mon Nov 27 2017 14:09:22 GMT+0000 (GMT Standard Time)
+[debug] [2017-11-27T14:09:23.821Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-27T14:09:23.823Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/guessthemovie-987a0/tokens  
+ Mon Nov 27 2017 14:09:23 GMT+0000 (GMT Standard Time)
+[debug] [2017-11-27T14:09:24.643Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\Favina\Desktop\dialogflow-trivia-game-nodejs-master\dialogflow-trivia-game-nodejs-master'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2017-11-27T14:09:25.049Z] >>> HTTP REQUEST GET https://appengine.googleapis.com/v1/apps/guessthemovie-987a0  
+ Mon Nov 27 2017 14:09:25 GMT+0000 (GMT Standard Time)
+[debug] [2017-11-27T14:09:25.050Z] >>> HTTP REQUEST GET https://apikeys.googleapis.com/v1/projects/guessthemovie-987a0/apiKeys  
+ Mon Nov 27 2017 14:09:25 GMT+0000 (GMT Standard Time)
+[debug] [2017-11-27T14:09:25.869Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-27T14:09:25.913Z] <<< HTTP RESPONSE 200
+[info] +  functions: triviaGame: http://localhost:5000/guessthemovie-987a0/us-central1/triviaGame
